@@ -1,0 +1,227 @@
+header{
+display: flex;
+justify-content: flex-end;
+float: right;
+}
+.hero {
+
+  height: 100vh;
+  width: 100vw; 
+  background-image: url(../img/bg-masthead.jpg);
+  /* background-size: 100vw 100vh; */
+  background-size: cover;
+  text-align: center;
+}
+
+.contents{
+  padding-top: 250px;
+  margin: 0px 2px;
+}
+
+
+.hero-button{
+  padding: 8px 20px;
+background-color: rgb(17, 72, 87);
+color: white;
+margin: 10px;
+
+}
+.advert{
+  padding-top: 20px;
+  height: 45vh;
+  text-align: center;
+}
+.advert .hero-button{
+  background-color: black;
+  margin-top: 20px 0px;
+}
+
+.content3{
+  background-color: aqua;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+  padding: 70px;
+}
+
+.content3 #heading{
+  color: gold;
+  font-size: 15px;
+}
+
+.content3 h2{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.content3 .offers{
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  justify-content: space-evenly;
+}
+
+.content3 .item{
+  flex-wrap: wrap;
+  display: flex;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.content3 .item img{
+  height: 40px;
+}
+
+.content3 .offer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.content3 .offer p{
+  font-size: 12px;
+}
+.content3 .offer h3{
+  margin-bottom: 20px;
+}
+
+.portfolio{
+  text-align: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.portfolio h4{
+  color: gold;
+  
+}
+
+.portfolio h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.flexcontent{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flex-images{
+  position: relative;
+  width: 35%;
+  margin-top: -5px;
+}
+
+.flex-images > div{
+  position: absolute;
+  z-index: 2;
+  bottom: 40px;
+  left: 30px;
+  color: white;
+  /* justify-content: center; */
+  text-align: justify;
+  font-size: 12px;
+}
+
+.flex-images > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.welcome{
+  background-image: url(../img/bg-callout.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.welcome h2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-align: center;
+}
+.welcome button{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: blue;
+  margin: auto;
+  margin-top: 25px;
+  align-content: space-between;
+}
+
+.Providence{
+  background-color: rgb(54, 54, 155);
+  color: white;
+  padding: 200px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.Providence .pee{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Providence h2{
+  margin-top: -20px;
+  font-size: 40px;
+}
+
+.Providence #CLICK{
+  position: absolute;
+  left: 520px;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: black;
+  margin: auto;
+  margin-top: 25px;
+  align-content: space-between;
+}
+
+.Providence #LOOK{
+  position: absolute;
+  right: 520px;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: white;
+  margin: auto;
+  margin-top: 25px;
+  align-content: space-between;
+}
